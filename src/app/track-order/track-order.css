@@ -1,0 +1,400 @@
+.track-page {
+  min-height: 70vh;
+  padding: 72px 0 100px;
+  background: #f7f8fa;
+}
+
+.track-hero {
+  max-width: 760px;
+  margin-bottom: 42px;
+}
+
+.track-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 42px;
+  color: #555550;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.track-back:hover {
+  color: #061329;
+}
+
+.track-hero h1 {
+  color: #061329;
+  font-size: clamp(40px, 5vw, 60px);
+  line-height: 1.03;
+  letter-spacing: -0.045em;
+}
+
+.track-hero > p:last-child {
+  max-width: 600px;
+  margin-top: 18px;
+  color: #73736d;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Search */
+
+.track-search-card {
+  max-width: 900px;
+  padding: 20px;
+  margin-bottom: 32px;
+  border: 1px solid #e7e7e5;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 6px 24px rgba(6, 19, 41, 0.05);
+}
+
+.track-search-card form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+}
+
+.track-search-field {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 17px;
+  border: 1px solid #d6d6d2;
+  border-radius: 11px;
+  color: #73736d;
+}
+
+.track-search-field:focus-within {
+  border-color: #12366f;
+  box-shadow: 0 0 0 3px rgba(18, 54, 111, 0.08);
+}
+
+.track-search-field input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #111110;
+  font-size: 14px;
+}
+
+.track-search-card form button {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 22px;
+  border-radius: 11px;
+  background: #f47b20;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.track-search-card form button:hover {
+  background: #d96512;
+}
+
+.track-demo-button {
+  margin-top: 12px;
+  padding: 0;
+  background: transparent;
+  color: #73736d;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/* Not found */
+
+.track-not-found {
+  max-width: 900px;
+  padding: 60px 20px;
+  border: 1px solid #e7e7e5;
+  border-radius: 18px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.track-not-found > div {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: #f5f5f4;
+  color: #73736d;
+}
+
+.track-not-found h2 {
+  color: #061329;
+  font-size: 24px;
+}
+
+.track-not-found p {
+  margin-top: 8px;
+  color: #73736d;
+  font-size: 14px;
+}
+
+/* Result */
+
+.track-result {
+  max-width: 1100px;
+  overflow: hidden;
+  border: 1px solid #e7e7e5;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 30px rgba(6, 19, 41, 0.06);
+}
+
+.track-result__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 30px 36px;
+}
+
+.track-result__header > div:first-child {
+  display: grid;
+  gap: 7px;
+}
+
+.track-result__header span:first-child {
+  color: #73736d;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.track-result__header h2 {
+  color: #061329;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+}
+
+.track-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 13px;
+  border-radius: 999px;
+  background: #e8f6ef;
+  color: #16834b;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.track-status__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #16834b;
+}
+
+.track-result__divider {
+  height: 1px;
+  background: #e7e7e5;
+}
+
+/* Timeline */
+
+.track-timeline {
+  padding: 42px 48px;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 15px;
+  align-items: center;
+  opacity: 0.45;
+}
+
+.timeline-item--active {
+  opacity: 1;
+}
+
+.timeline-item__icon {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #d6d6d2;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #a7a7a1;
+}
+
+.timeline-item--active .timeline-item__icon {
+  border-color: #d96512;
+  background: #fff4ea;
+  color: #d96512;
+}
+
+.timeline-item--complete .timeline-item__icon {
+  border-color: #16834b;
+  background: #e8f6ef;
+  color: #16834b;
+}
+
+.timeline-item > div:last-child {
+  display: grid;
+  gap: 4px;
+}
+
+.timeline-item strong {
+  color: #242422;
+  font-size: 14px;
+}
+
+.timeline-item span {
+  color: #73736d;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.timeline-connector {
+  width: 2px;
+  height: 32px;
+  margin-left: 19px;
+  background: #e7e7e5;
+}
+
+.timeline-connector--active {
+  background: #16834b;
+}
+
+/* Bottom */
+
+.track-result__bottom {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  border-top: 1px solid #e7e7e5;
+}
+
+.track-order-items,
+.track-order-details {
+  padding: 30px 36px;
+}
+
+.track-order-items {
+  border-right: 1px solid #e7e7e5;
+}
+
+.track-order-items > span,
+.track-order-details > span {
+  display: block;
+  margin-bottom: 20px;
+  color: #a7a7a1;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.track-order-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 15px 0;
+  border-top: 1px solid #f0f0ee;
+}
+
+.track-order-item > div {
+  display: grid;
+  gap: 4px;
+}
+
+.track-order-item strong {
+  color: #242422;
+  font-size: 13px;
+}
+
+.track-order-item small {
+  color: #73736d;
+  font-size: 11px;
+}
+
+.track-order-details {
+  display: grid;
+  align-content: start;
+}
+
+.track-order-details strong {
+  color: #242422;
+  font-size: 14px;
+}
+
+.track-order-details p {
+  margin-top: 10px;
+  color: #73736d;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.track-order-details a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 24px;
+  color: #d96512;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+  .track-page {
+    padding: 48px 0 72px;
+  }
+
+  .track-hero {
+    margin-bottom: 32px;
+  }
+
+  .track-back {
+    margin-bottom: 30px;
+  }
+
+  .track-hero h1 {
+    font-size: 40px;
+  }
+
+  .track-search-card form {
+    grid-template-columns: 1fr;
+  }
+
+  .track-search-card form button {
+    justify-content: center;
+  }
+
+  .track-result__header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px 20px;
+  }
+
+  .track-timeline {
+    padding: 32px 20px;
+  }
+
+  .track-result__bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .track-order-items {
+    border-right: 0;
+    border-bottom: 1px solid #e7e7e5;
+  }
+
+  .track-order-items,
+  .track-order-details {
+    padding: 26px 20px;
+  }
+}

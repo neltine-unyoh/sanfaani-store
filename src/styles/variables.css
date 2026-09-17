@@ -1,0 +1,136 @@
+:root {
+  /* ========================================
+     SANFAANI BRAND COLORS
+     ======================================== */
+
+  --brand-navy-950: #061329;
+  --brand-navy-900: #081a38;
+  --brand-navy-800: #0d2855;
+  --brand-navy-700: #12366f;
+
+  --brand-orange-600: #d96512;
+  --brand-orange-500: #f47b20;
+  --brand-orange-400: #f99448;
+
+  --brand-gold-500: #d6a54a;
+  --brand-gold-400: #e2bd70;
+
+  /* ========================================
+     NEUTRALS
+     ======================================== */
+
+  --white: #ffffff;
+
+  --neutral-50: #fafafa;
+  --neutral-100: #f5f5f4;
+  --neutral-200: #e7e7e5;
+  --neutral-300: #d6d6d2;
+  --neutral-400: #a7a7a1;
+  --neutral-500: #73736d;
+  --neutral-600: #555550;
+  --neutral-700: #3b3b37;
+  --neutral-800: #242422;
+  --neutral-900: #111110;
+
+  /* ========================================
+     SEMANTIC COLORS
+     ======================================== */
+
+  --success-500: #16834b;
+  --success-100: #e8f6ef;
+
+  --warning-500: #b97800;
+  --warning-100: #fff4d9;
+
+  --error-500: #c93636;
+  --error-100: #fceaea;
+
+  --info-500: #2563a8;
+  --info-100: #eaf3fc;
+
+  /* ========================================
+     BACKGROUNDS
+     ======================================== */
+
+  --background: var(--white);
+  --background-soft: var(--neutral-50);
+  --background-muted: var(--neutral-100);
+  --background-dark: var(--brand-navy-950);
+
+  /* ========================================
+     TEXT
+     ======================================== */
+
+  --text-primary: var(--neutral-900);
+  --text-secondary: var(--neutral-600);
+  --text-muted: var(--neutral-500);
+  --text-inverse: var(--white);
+
+  /* ========================================
+     BORDERS
+     ======================================== */
+
+  --border-light: var(--neutral-200);
+  --border-default: var(--neutral-300);
+
+  /* ========================================
+     RADIUS
+     ======================================== */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-pill: 999px;
+
+  /* ========================================
+     SHADOWS
+     ======================================== */
+
+  --shadow-xs: 0 1px 3px rgba(6, 19, 41, 0.05);
+
+  --shadow-sm:
+    0 2px 8px rgba(6, 19, 41, 0.06);
+
+  --shadow-md:
+    0 8px 24px rgba(6, 19, 41, 0.08);
+
+  --shadow-lg:
+    0 16px 40px rgba(6, 19, 41, 0.12);
+
+  /* ========================================
+     LAYOUT
+     ======================================== */
+
+  --container-max: 1280px;
+
+  --page-padding-desktop: 32px;
+  --page-padding-mobile: 20px;
+
+  /* ========================================
+     SPACING
+     ======================================== */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* ========================================
+     TRANSITIONS
+     ======================================== */
+
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+}
